@@ -37,7 +37,7 @@
         ],
         "post-create-project-cmd": [
             "php artisan key:generate",
-            "php artisan vendor:publish --provider='Klsandbox\DbScripts\DbScriptsServiceProvider'",
+            "php artisan vendor:publish --provider='Klsandbox\\DbScripts\\DbScriptsServiceProvider'",
             "chmod +x scripts/*"
         ],
         "post-install-cmd": [
