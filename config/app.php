@@ -158,6 +158,9 @@ return [
 
         Klsandbox\DbScripts\DbScriptsServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        Klsandbox\SocialRoute\SocialRouteServiceProvider::class,
     ],
 
     /*
