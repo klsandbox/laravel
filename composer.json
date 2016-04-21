@@ -34,6 +34,7 @@
     },
     "scripts": {
         "post-root-package-install": [
+            "php scripts/update-env-example.php",
             "php -r \"copy('.env.example', '.env');\"",
             "echo > database/database.sqlite"
         ],
